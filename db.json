@@ -1,14 +1,226 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    [{
+  "_id": {
+    "$oid": "5f10830b920d050998d7f5b5"
+  },
+  "title": "Ai là con nít",
+  "desc": "Trải nghiệm của tuổi thơ vô giá, là tài sản quý giá của mỗi người để trưởng thành",
+  "author": "Lê Minh Nhật",
+  "price": 100000,
+  "amount": 100,
+  "category": "truyện ngắn",
+  "bReview": "Truyện rất hay ạ",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594917642/afm6ptm56bfqochoi7l4.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f11022366eb4d3118288a67"
+  },
+  "title": "Fall in love stay in love",
+  "desc": "Cuốn sách hay về tình yêu, nơi cho bạn những kiến thức tốt nhất khi bước vào một mối quan hệ tưởng chừng như đơn giản",
+  "author": "Marian Tony",
+  "price": 150000,
+  "amount": 15,
+  "category": "PTKN",
+  "bReview": "Nhờ cuốn sách mà tôi lần đầu biết đc rằng yêu cũng là một kĩ năng cần phải học",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950178/z8o4gfmriarpwjgfihzp.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1102aa66eb4d3118288a68"
+  },
+  "title": "Một đứa trẻ vừa chạy trốn khỏi tôi",
+  "desc": "Là bước chuyển tiếp giữa một đứa trẻ và một người lớn",
+  "author": "Nguyễn Nga",
+  "price": 120000,
+  "amount": 13,
+  "category": "truyện ngắn",
+  "bReview": "Sách rất hay, tôi thấy mình trong đó",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950313/wof3kie3v1cucojpss7k.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f11035766eb4d3118288a69"
+  },
+  "title": "Mua dây buộc mình",
+  "desc": "Bạn đang tự bó buộc chính bản thân điều gì?",
+  "author": "Bích Huệ",
+  "price": 110000,
+  "amount": 10,
+  "category": "truyện ngắn",
+  "bReview": "Sách giúp tôi nhận ra, tôi đã hạn chế bản thân như thế nào, tôi đã vướng phải những rắc rối ra sao",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950486/d7rjhocxpk86ykgkl29e.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1103dc66eb4d3118288a6a"
+  },
+  "title": "The fault in our stars",
+  "desc": "Câu chuyện về chuyện tình của cặp đôi bị ung thư máu, nhưng cái kết thì...",
+  "author": "Mactin Walker",
+  "price": 150000,
+  "amount": 11,
+  "category": "truyện ngắn",
+  "bReview": "Chuyện rất cảm động, cô bé đã vượt qua rào cản lớn nhất để có đc tình yêu cho bản thân vậy mà...",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950619/vofby0stop3kpwb8nwc8.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f11043c66eb4d3118288a6b"
+  },
+  "title": "Nhà giả kim",
+  "desc": "Chuyến hành trình thực sự ý nghĩa của cậu bé chăn cừu và những bài học thực sự quý giá",
+  "author": "Jone Anthony",
+  "price": 160000,
+  "amount": 20,
+  "category": "truyện ngắn",
+  "bReview": "Sách quá hay luôn, đọc mà ngấm từng triết lý",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950715/qfuidoywoxbchdvfq0f9.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1104ad66eb4d3118288a6c"
+  },
+  "title": "Tôi bị bố bắt cóc",
+  "desc": "Tình ba con ấm áp sưởi ấm và nuôi dưỡng tâm hồn những đứa trẻ",
+  "author": "Việt Nguyễn",
+  "price": 110000,
+  "amount": 5,
+  "category": "truyện ngắn",
+  "bReview": "Truyện dễ thương, gợi cho mình bao kỉ niệm về ba, yêu ba nhất <3",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594950828/gclr70fti1sjwngeq6wy.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f11058166eb4d3118288a6d"
+  },
+  "title": "How democracies die",
+  "desc": "Bạn có thích chế độ dân chủ như Mỹ, Nhật?",
+  "author": "Weil Alane",
+  "price": 200000,
+  "amount": 15,
+  "category": "ngoại ngữ",
+  "bReview": "Sách phản ánh khá đúng về bản chất của dân chủ, thực chất thì mình cũng k thích cộng sản như ở Trung Quốc lắm, nhưng cũng k thích dân chủ cực đoan kiểu Mỹ, nói chung chế độ nào cũng có những hạn chế của nó thôi....",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594951040/pdzinhlta0jggt7ktku2.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f112dc011ac0a5278ac88f8"
+  },
+  "title": "Xu xu đừng khóc",
+  "desc": "Câu chuyện cảm động về tình bạn và những trải nghiệm vượt lên nỗi sợ của chính mình",
+  "author": "Hồng Sakura",
+  "price": 110000,
+  "amount": 10,
+  "category": "truyện ngắn",
+  "bReview": "Sách đáng yêu, nội dung dễ hiểu,nhân vật rất tự nhiên và đời thường",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594961343/jbuyid9j7srql0i2hww0.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f112eab37ac1e1f58c2ec86"
+  },
+  "title": "Muốn nhanh phải từ từ",
+  "desc": "Trong cuộc sống luôn tồn tại những nghịch lý, thật ư? bạn nghĩ sao khi phải bình tĩnh vượt qua những áp lực của cuộc sống?",
+  "author": "Thái Hà",
+  "price": 123500,
+  "amount": 23,
+  "category": "PTKN",
+  "bReview": "Sách cho mình nhiều kinh nghiệm quản lý áp lực và vượt qua chúng, highly recomment nha",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594961578/sgix8n2e0u5yjequttob.png",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f1139ffdfd1f154b0c07e76"
+  },
+  "title": "Có hai con mèo ngồi trên cửa sổ",
+  "desc": "Câu chuyện nhân hóa về những chú mèo, nổi bật tính cách tinh nghịch",
+  "author": "Nguyễn Nhật Ánh",
+  "price": 135000,
+  "amount": 10,
+  "category": "truyện ngắn",
+  "bReview": "Chuyện rất thú vị và cái kết mở làm người đọc lưu luyến và nhớ mãi",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594964478/hc4zbmlvlxvdpicdvzev.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f113bf9c72d4430f0955bfe"
+  },
+  "title": "Nếu yêu được như thế",
+  "desc": "Tình yêu lúc nào cũng khiến cho người ta trẻ con hơn rất nhiều",
+  "author": "Nguyên Ngộ Không",
+  "price": 140000,
+  "amount": 11,
+  "category": "tiểu thuyết",
+  "bReview": "Truyện rất hay, kết main 9 không đến với nhau, nhưng ai cũng trưởng thành hơn, khiến người đọc cũng cảm thấy tĩnh lặng",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594964984/liv22aeffqvn5rpss8wp.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f113d2c3f141e32ec642c5a"
+  },
+  "title": "Chú lợn biết bay",
+  "desc": "Sách dành cho thiếu nhi, câu chuyện về chú lợn muốn vượt qua bản ngã của chính mính",
+  "author": "Như Huỳnh",
+  "price": "115000",
+  "amount": 3,
+  "category": "truyện ngắn",
+  "bReview": "Truyện ngộ nghĩnh bé nhà mình thích lắm",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594965291/a7tik7gadrmmdruypjkp.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f113deaf6d81518b47b0c68"
+  },
+  "title": "Mắt biếc",
+  "desc": "Chuyện về chàng Ngạn si tình, mãi mãi theo đuổi một Hà Lan không yêu mình",
+  "author": "Nguyễn Nhật Ánh",
+  "price": "135000",
+  "amount": 24,
+  "category": "truyện ngắn",
+  "bReview": "Thấy Ngạn ngố quá, cuối cùng phải bỏ chạy người thực sự yêu thương mình ",
+  "cover": "http://res.cloudinary.com/ngocduongflyinthesky1509/image/upload/v1594965481/nvl83za6taxeenucpw7j.jpg",
+  "shopId": {
+    "$oid": "5f107c08b17821423871882d"
+  },
+  "__v": 0
+}]
+    
